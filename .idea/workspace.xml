@@ -194,7 +194,7 @@
       <option name="presentableId" value="Default" />
       <updated>1535085850244</updated>
       <workItem from="1535085852621" duration="7383000" />
-      <workItem from="1535177131942" duration="517000" />
+      <workItem from="1535177131942" duration="711000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;getting rid of red on file names&quot;">
       <created>1535177370668</created>
@@ -214,7 +214,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7900000" />
+    <option name="totallyTimeSpent" value="8094000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -234,9 +234,9 @@
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Run" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="3" visible="true" weight="0.35061392" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.35061392" />
       <window_info anchor="bottom" id="TypeScript" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49896482" visible="true" weight="0.27213115" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49896482" visible="true" weight="0.27213115" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="right" id="Copy/Paste" order="0" />
       <window_info id="Structure" order="2" sideWeight="0.5010352" side_tool="true" weight="0.2647541" />
@@ -415,6 +415,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/angular-app/src/app/auth/signup/signup.component.css">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-app/src/browserslist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="54" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="54" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
