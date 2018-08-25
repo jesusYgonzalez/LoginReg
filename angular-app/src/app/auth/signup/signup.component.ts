@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NgForm } from '@angular/forms';
+// import { NgForm } from '@angular/forms';
 
 @Component({
   templateUrl: './signup.component.html',
@@ -9,7 +9,7 @@ import { NgForm } from '@angular/forms';
 export class SignupComponent {
   isLoading = false;
 
-  onSignup(form: NgForm) {
-    console.log(form);
-  }
+  // onSignup(form: NgForm) {
+  //   console.log(form);
+  // }
 }
