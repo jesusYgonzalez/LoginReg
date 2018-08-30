@@ -7,7 +7,7 @@ import {
   MatButtonModule,
   MatCardModule,
   MatInputModule,
-  MatProgressSpinnerModule,
+  MatProgressSpinnerModule, MatSnackBarModule,
   MatToolbarModule
 } from '@angular/material';
 import { LoginComponent } from './auth/login/login.component';
@@ -16,6 +16,8 @@ import { AppRoutingModule } from './/app-routing.module';
 import { BrowserAnimationsModule, NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { SignupComponent } from './auth/signup/signup.component';
 import { HomeComponent } from './home/home.component';
+import { AuthService } from './auth/auth.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -27,9 +29,11 @@ import { HomeComponent } from './home/home.component';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     FormsModule,
     MatToolbarModule,
     MatProgressSpinnerModule,
+    MatSnackBarModule,
     MatInputModule,
     MatButtonModule,
     MatCardModule,
@@ -37,7 +41,7 @@ import { HomeComponent } from './home/home.component';
     BrowserAnimationsModule,
     NoopAnimationsModule
   ],
-  providers: [],
+  providers: [AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
